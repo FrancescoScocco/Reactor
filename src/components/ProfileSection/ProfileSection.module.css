@@ -1,0 +1,105 @@
+.card_custom {
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    background-position: center;
+    background-position-x: center;
+}
+
+.p1_custom {
+    font-weight: 500;
+    font-size: 400%;
+    text-shadow: 2px 2px 4px var(--color-black);
+}
+
+.p2_custom {
+    font-weight: 500;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px var(--color-black);
+}
+
+.p3_custom {
+    text-shadow: 2px 2px 4px var(--color-black);
+}
+
+.p4_custom {
+    text-decoration: none;
+}
+
+
+.button_custom {
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #6c5ce7 !important;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff !important;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe !important;
+    text-decoration: none;
+}
+
+.button_custom:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe !important;
+}
+
+
+@media (min-width:577px) {
+    .button_custom {
+        margin-top: 60px;
+
+    }
+}
+
+@media (max-width:576px) {
+    .card_custom {
+        height: 700px;
+    }
+
+    .button_custom {
+        margin-bottom: 10px;
+        width: 80%;
+        border: none;
+        outline: none;
+        background-color: #6c5ce7 !important;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff !important;
+        border-radius: 5px;
+        transition: all ease 0.1s;
+        box-shadow: 0px 5px 0px 0px #a29bfe !important;
+        text-decoration: none;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.scroll_box {
+    height: 110px;
+    overflow-y: scroll;
+}
+
+.scroll_box::-webkit-scrollbar {
+    width: 10px;
+    background-color: #6c5ce7;
+    border-radius: 6px;
+}
+
+.scroll_box::-webkit-scrollbar-thumb {
+    background-color: #a29bfe;
+    border-radius: 6px;
+}

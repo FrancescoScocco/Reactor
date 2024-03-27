@@ -1,0 +1,62 @@
+:root {
+    --color-black: #151515;
+    --color-white: #ffffff;
+    --color-orange: #6c5ce7;
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p {
+    color: var(--color-white);
+}
+
+.bg-color {
+    background-color: var(--color-black);
+}
+
+.text-color {
+    color: var(--color-white);
+}
+
+.text-color-logo {
+    color: var(--color-orange);
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+
+
+/* START CLASSE BOOTSRAP */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.show {
+    color: var(--color-orange);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var();
+}
+
+/* END CLASSE BOOTSRAP */
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid var(--color-white) !important;
+    color: var(--color-black);
+}

@@ -1,0 +1,42 @@
+.text_custom {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+@media (min-width:600px){
+    .text_custom {
+        font-weight: 800;
+        font-size: 100px;
+    }
+    
+}
+
+@media (max-width:796px) {
+    .container {
+        width: 80%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .scroll_box {
+        height: 210px;
+        overflow-y: scroll;
+    }
+}
+
+.scroll_box::-webkit-scrollbar {
+    width: 10px;
+    background-color: #6c5ce7;
+    border-radius: 6px;
+}
+
+.scroll_box::-webkit-scrollbar-thumb {
+    background-color: #a29bfe;
+    border-radius: 6px;
+}
+
+@media (min-width:800px) {
+    .width_custom {
+        width: 60%;
+    }
+}

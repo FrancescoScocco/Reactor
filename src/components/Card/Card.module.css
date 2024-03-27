@@ -1,0 +1,23 @@
+.platform_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 150px;
+}
+
+.platform_item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+.width_custom{
+    width: 300px;
+}
+
+.txt_decoration{
+    text-decoration: none;
+}

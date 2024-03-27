@@ -1,0 +1,16 @@
+.number_custom{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.margin_custom{
+    margin-left: -6px;
+}
+
+@media (max-width:576px){
+    .number_custom1{
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+}

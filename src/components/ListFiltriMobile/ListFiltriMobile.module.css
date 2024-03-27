@@ -1,0 +1,32 @@
+.bg_custom{
+    background-color: #6c5ce7 !important;
+}
+
+.scroll_box {
+    width: 180px;
+    height: 210px;
+    overflow-y: scroll;
+    margin-left: 32px;
+    margin-bottom: 35px;
+}
+
+.scroll_box::-webkit-scrollbar {
+    width: 10px;
+    background-color: #6c5ce7;
+    border-radius: 6px;
+}
+
+.scroll_box::-webkit-scrollbar-thumb {
+    background-color: #a29bfe;
+    border-radius: 6px;
+}
+
+
+.collapseIcon {
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.open {
+    transform: rotate(360deg);
+}

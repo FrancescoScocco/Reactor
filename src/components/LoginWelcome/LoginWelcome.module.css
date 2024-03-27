@@ -1,0 +1,22 @@
+.bg_sfondo {
+    height: 60%;
+    margin-top: 50px !important;
+    border-radius: 20px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.h1_bold {
+    font-weight: 800 !important;
+}
+
+@media (max-width: 576px) {
+    .bg_sfondo {
+        height: 60%;
+        width: 90% !important;
+        margin-top: 50px !important;
+        border-radius: 20px;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+    }
+}
